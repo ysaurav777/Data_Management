@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+}
+
+.countdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btnchange {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btninputdiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.btnreset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
